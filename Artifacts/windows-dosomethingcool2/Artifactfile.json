@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2015-01-01/dtlArtifacts.json",
-    "title": "Visual Studio Code",
-    "description": "Installs Visual Studio Code",
+    "title": "Visual Studio Code2",
+    "description": "Installs Visual Studio Code2",
     "tags": [
         "Windows",
         "VSCode"
