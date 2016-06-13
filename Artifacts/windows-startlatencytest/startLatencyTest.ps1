@@ -32,7 +32,7 @@ if(!$arguments -eq '')
 {
     #run the latency check
     echo Running with $arguments
-    $filePath = 'c:\Repos\leos-dtl-artifacts\Diskspd\diskspd.exe'
+    $filePath = '..\..\Diskspd\diskspd.exe'
     $psi = New-Object System.Diagnostics.ProcessStartInfo
     $psi.FileName = $filePath    
     $psi.Arguments = $arguments
