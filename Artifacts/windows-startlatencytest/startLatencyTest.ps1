@@ -36,7 +36,7 @@ if(!$arguments -eq '')
     $psi = New-Object System.Diagnostics.ProcessStartInfo
     $psi.FileName = $filePath    
     $psi.Arguments = $arguments
-    $psi.UseShellExecute = false
+    $psi.UseShellExecute = $false
     $psi.RedirectStandardOutput = $true
     $psi.RedirectStandardError = $true
     $proc = New-Object System.Diagnostics.Process
